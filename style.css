@@ -177,12 +177,21 @@ aside ul li{
     background-color: #EFEAD6;
 }
 
-.table-caption{
+caption{
+    text-align: left;
+}
+
+caption span{
+    padding-bottom: 50px;
+}
+
+caption h1{
     padding-top: 80px;
 }
 
 .container-table{
     width: 100%;
+    align-items: center;
 }
 
 .container-table .table-caption span{
@@ -191,6 +200,8 @@ aside ul li{
 
 table{
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th:nth-child(1){
@@ -201,8 +212,11 @@ td:nth-child(2){
     padding-right: 25px;
 }
 
+th{
+    background-color: #FF9900;
+}
+
 th, td{
-    margin: 0 auto;
     border: 1px solid;
     padding: 10px;
     font-size: 20px;   
