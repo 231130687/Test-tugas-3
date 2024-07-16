@@ -12,6 +12,9 @@ nav{
     padding: 1.2rem 3%;
     border-top-width: 100%;
     border-bottom: 1px solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 nav svg{
@@ -23,7 +26,7 @@ nav svg{
     justify-content: space-between;
     align-items: center;
     top: 0;
-    left: 0;
+    left: 0;  
 }
 
 .logo{
@@ -45,7 +48,7 @@ nav a{
 
 .top-content{
     display: flex;
-    
+    padding-top: 80px;
     width: 100%;
     height: fit-content ;
     background-color: orange;
@@ -220,6 +223,52 @@ th, td{
     border: 1px solid;
     padding: 10px;
     font-size: 20px;   
+}
+
+.last-content{
+    display: flex;
+    width: 90%;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.last-content .left-content{
+    background-color: white;
+    width: 25%;
+    padding: 0px;
+}
+
+.last-content .left-content h1{
+    text-align: left;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.last-content .left-content p{
+    border-top: 2px solid red;
+}
+
+.last-content .right-content{
+    width: 100%;
+    padding: 0;
+}
+
+.last-content .right-content .top-icon{
+    display: flex;
+    text-align: right;
+}
+
+.last-content .right-content .top-icon p{
+    color: red;
+    padding-bottom: 10px;
+}
+
+.last-content .right-content .top-icon p:nth-child(1){
+    width: 60%;
+}
+
+.last-content .right-content p.line{
+    border-top: 2px solid black;
 }
 
 @media (max-width: 768px){
