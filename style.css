@@ -23,7 +23,7 @@ nav svg{
 .container-nav{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     top: 0;
     left: 0;  
@@ -241,7 +241,7 @@ th, td{
 .last-content .left-content h1{
     text-align: left;
     color: red;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .last-content .left-content p{
@@ -258,9 +258,9 @@ th, td{
     text-align: right;
 }
 
-.last-content .right-content .top-icon p{
+.last-content .right-content .top-icon {
     color: red;
-    padding-bottom: 10px;
+    padding-bottom: 5.215px;
 }
 
 .last-content .right-content .top-icon p:nth-child(1){
